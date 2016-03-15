@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Быстрозайм. Время - деньги!</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="css/custom-styles.css"/>
+</head>
+<body>
+
+<div class="header">
+    <a class="header-logo" href="index.html"></a>
+    <div class="contacts-block">
+        <div class="icon-contacts"></div>
+        <div class="contacts">
+            <div class="phone-number">8-800-25-030-25</div>
+            <div class="text-1">звонок по России бесплатный</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="calculator-block">
+    <div class="title">Быстрые займы на любые цели<br> без залога и справок</div>
+    <div class="calculator">
+        <div class="title">Калькулятор займа</div>
+        <div class="percent-rate"><span>2.00</span>% в день</div>
+        <ul class="calculator-menu">
+            <li class="active">До зарплаты</li><!--
+         --><li>Пенсионный</li><!--
+         --><li>Свой Круг</li>
+        </ul>
+        <div class="loan-min-max"><span>Сумма</span> от <div class="min-loan-value">3000</div> до <div class="max-loan-value">30000</div> руб.</div>
+        <div class="loan-value"></div>
+        <div class="loan-value-current"><span>3000</span> Р</div>
+        <div class="days-min-max"><span>На срок</span> от <div class="min-days-number">1</div> до <div class="max-days-number">20</div> дней</div>
+        <div class="days-number"></div>
+        <div class="days-number-current"><span>1</span> дней</div>
+        <div class="credit">
+            <div class="text-1">Сумма к возврату</div>
+            <div class="credit-value"><span>3060</span> Р</div>
+        </div>
+        <button class="get-loan">Получить займ</button>
+    </div>
+    <div class="icon-bottom-arrow"></div>
+</div>
+<div class="advantages-block">
+    <div class="title">Наши преимущества</div>
+    <div class="advantages-block-table">
+        <ul>
+            <li>
+                <div class="icon icon-fast animated"></div>
+                <div class="text-1 animated">Быстрое<br> оформление</div>
+                <div class="text-2 animated">Заявка рассматривается<br> не более 15 минут</div>
+            </li>
+            <li>
+                <div class="icon icon-simple animated"></div>
+                <div class="text-1 animated">Простые<br> и понятные условия</div>
+                <div class="text-2 animated">Никаких скрытых<br> платежей и комиссий</div>
+            </li>
+            <li>
+                <div class="icon icon-comfort animated"></div>
+                <div class="text-1 animated">Комфортные<br> офисы обслуживания</div>
+                <div class="text-2 animated">Более 60 филиалов в<br> 20 городах</div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div class="icon icon-cash animated"></div>
+                <div class="text-1 animated">Быстрое<br> получение денег</div>
+                <div class="text-2 animated">Вы получаете займ<br> в день оформления заявки</div>
+            </li>
+            <li>
+                <div class="icon icon-flexible animated"></div>
+                <div class="text-1 animated">Гибкие<br> условия оплаты</div>
+                <div class="text-2 animated">Возможно продление<br> и досрочное погашение</div>
+            </li>
+            <li>
+                <div class="icon icon-trust animated"></div>
+                <div class="text-1 animated">Доверительное<br> отношение</div>
+                <div class="text-2 animated">Не требуется справок,<br> залога и поручителей</div>
+            </li>
+        </ul>
+    </div>
+    <button class="get-loan">Получить займ</button>
+</div>
+<div class="offices-block">
+    <div class="title">офисы в вашем городе</div>
+    <div class="icon-gps"></div>
+    <div class="city-name">Железногорск-Илимский</div>
+    <ul>
+        <li>
+            <div class="icon-mark"></div>
+            <div class="office-name">Мегацентр «Фортуна»</div>
+            <div class="office-info">6 квартал , 21а, бутик 15<br> с 10.00 до 19.00</div>
+        </li>
+        <li>
+            <div class="icon-mark"></div>
+            <div class="office-name">Мегацентр «Фортуна»</div>
+            <div class="office-info">6 квартал , 21а, бутик 15<br> с 10.00 до 19.00</div>
+        </li>
+        <li>
+            <div class="icon-mark"></div>
+            <div class="office-name">Мегацентр «Фортуна»</div>
+            <div class="office-info">6 квартал , 21а, бутик 15<br> с 10.00 до 19.00</div>
+        </li>
+    </ul>
+    <div class="on-map">
+        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=EAKF1yIMkcjj139JcaeXSoDxmBRYe3Lw&width=100%&height=400&lang=ru_UA&sourceType=constructor"></script>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-logo"></div>
+    <div class="copyrights">© 2014-2015 Быстро-Займ.<br>Микрофинансовая организация.</div>
+    <div class="certificate">Свидетельство ЦБ РФ<br>№ 651403525005172 от 20.05.2014 г.</div>
+</div>
+
+<div class="window-callback-order">
+    <form class="form-callback-order" action="#">
+        <div class="text-1">Заявка на получение займа</div>
+        <label class="loan-summa"><span>Сумма займа (руб.)</span><input type="text"/></label>
+        <label class="loan-term"><span>Срок займа</span><input type="text"/></label>
+        <label class="last-name"><span>Фамилия</span><input type="text"/></label>
+        <label class="first-name"><span>Имя</span><input type="text"/></label>
+        <label class="middle-name"><span>Отчество</span><input type="text"/></label>
+        <label class="passport-series"><span>Паспорт серия</span><input type="text"/></label>
+        <label class="passport-number"><span>номер</span><input type="text"/></label>
+        <label class="phone-number"><span>Контактный номер</span><input type="text"/></label>
+        <input class="to-send" type="submit" value="Отправить заявку"/>
+        <div class="close-window">&#10006;</div>
+    </form>
+</div>
+
+<div class="window-callback">
+    <form class="form-callback" action="#">
+        <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+        <label class="first-name"><span>Как Вас зовут</span><input type="text"/></label>
+        <label class="phone-number"><span>Мобильный номер</span><input type="text"/></label>
+        <input class="call-me" type="submit" value="Перезвонить мне"/>
+        <div class="close-window">&#10006;</div>
+    </form>
+</div>
+
+<form class="form-callback-2" action="#">
+    <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+    <label><input class="first-name" type="text" placeholder="Как Вас зовут"/></label>
+    <label><input class="phone-number" type="text" placeholder="Мобильный номер"/></label><br>
+    <input class="call-me" type="submit" value="Перезвонить мне"/>
+    <div class="close-window">&#10006;</div>
+</form>
+
+<form class="form-callback-3" action="#">
+    <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+    <label><input class="first-name" type="text" placeholder="Как Вас зовут"/></label>
+    <label><input class="phone-number" type="text" placeholder="Мобильный номер"/></label><br>
+    <input class="call-me" type="submit" value="Перезвонить мне"/>
+    <div class="close-window">&#10006;</div>
+</form>
+
+<form class="form-callback-4" action="#">
+    <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+    <label><input class="first-name" type="text" placeholder="Как Вас зовут"/></label>
+    <label><input class="phone-number" type="text" placeholder="Мобильный номер"/></label><br>
+    <input class="call-me" type="submit" value="Перезвонить мне"/>
+    <div class="close-window">&#10006;</div>
+</form>
+
+<form class="form-callback-5" action="#">
+    <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+    <label><input class="first-name" type="text" placeholder="Как Вас зовут"/></label>
+    <label><input class="phone-number" type="text" placeholder="Мобильный номер"/></label><br>
+    <input class="call-me" type="submit" value="Перезвонить мне"/>
+    <div class="close-window">&#10006;</div>
+</form>
+
+<form class="form-callback-6" action="#">
+    <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+    <label><input class="first-name" type="text" placeholder="Как Вас зовут"/></label>
+    <label><input class="phone-number" type="text" placeholder="Мобильный номер"/></label><br>
+    <input class="call-me" type="submit" value="Перезвонить мне"/>
+    <div class="close-window">&#10006;</div>
+</form>
+
+<form class="form-callback-7" action="#">
+    <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+    <label><input class="first-name" type="text" placeholder="Как Вас зовут"/></label>
+    <label><input class="phone-number" type="text" placeholder="Мобильный номер"/></label><br>
+    <input class="call-me" type="submit" value="Перезвонить мне"/>
+    <div class="close-window">&#10006;</div>
+</form>
+
+<form class="form-callback-8" action="#">
+    <div class="text-1">У вас есть вопросы? Давайте мы Вам перезвоним.</div>
+    <label><input class="first-name" type="text" placeholder="Как Вас зовут"/></label>
+    <label><input class="phone-number" type="text" placeholder="Мобильный номер"/></label><br>
+    <input class="call-me" type="submit" value="Перезвонить мне"/>
+    <div class="close-window">&#10006;</div>
+</form>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.onscreen.min.js"></script>
+<script src="js/custom-scripts.js"></script>
+</body>
+</html>
